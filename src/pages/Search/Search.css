@@ -1,0 +1,34 @@
+.container {
+    padding-top: 30px;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .input {
+    padding: 5px 15px;
+    width: 300px;
+  }
+  
+  .image-list {
+    margin-top: 30px;
+  }
+  
+  .image {
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-id {
+    color: red;
+    margin-right: 20px;
+  }
+  
+  .image-name {
+    color: blue;
+  }
+  
+ 

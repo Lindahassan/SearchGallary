@@ -32,7 +32,7 @@ const Search = () => {
     <div className="container">
       <input
         type="search"
-        value={name}
+        //value={name}
         onChange={filter}
         className="input"
         placeholder="Filter"
@@ -47,7 +47,7 @@ const Search = () => {
             </li>
           ))
         ) : (
-          <h1>No results found!</h1>
+          <h3>No results found!</h3>
         )}
       </div>
     </div>
